@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;customer-mapper.xml&apos; to &apos;sqlmap&apos;&#x0D;&#x0A;- Original project: &apos;iot&apos;&#x0D;&#x0A;- Destination element: &apos;sqlmap&apos;&#x0D;&#x0A;- Original element: &apos;customer-mapper.xml&apos;" description="Copy file" element1="src/main/resources/sqlmap/customer-mapper.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1642666882215" target="/iot/src/main/resources/sqlmap" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+package com.hanul.iot;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import board.BoardPage;
+import board.BoardServiceImpl;
+
+@Controller
+public class BoardController {
+	@Autowired private BoardServiceImpl service;
+	@Autowired private BoardPage page;
+	
+	
+	
+	
+	// 방명록 목록화면 요청
+	@RequestMapping ("/list.bo")
+	public String list(HttpSession session) {
+		session.setAttribute("category", "bo");
+		return "board/list";
+	}
+}

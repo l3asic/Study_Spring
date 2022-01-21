@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member.mapper">
+
+	<!-- 고객 정보 삭제 -->
+	<insert id="insert">
+		insert into ANDROID_MEMBER ( id , pw ,filepath) values ( #{id} , #{pw} , #{filepath})
+	</insert>
+
+	<select id="select" resultType="member.MemberVO">
+		select * from ANDROID_MEMBER where id=#{id} and pw=#{pw}
+	</select>
+
+</mapper>

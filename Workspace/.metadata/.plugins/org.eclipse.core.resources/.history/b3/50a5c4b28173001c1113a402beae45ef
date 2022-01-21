@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member.mapper">
+
+	
+
+
+	<update id="social_update">
+		update member set name=#{name}, gender=#{gender}
+		where ${social_type} = #{social_email}	
+	</update>
+
+	<insert id="social_insert">
+		insert into member (id, name, gender, ${social_type})
+		values (#{id}, #{name}, #{gender}, #{social_email})	
+	</insert>
+	
+	<!-- social_email 존재 여부 조회 (소셜 로그인 이력 조회) -->
+	<select id="social_email" resultType="integer">
+		select count(*) from member
+		where ${social_type} = #{social_email}
+		<!-- naver, kakao 확인 -->
+	
+	</select>
+
+	<!-- 로그인 id, pw 일치 여부 조회 -->
+	<select id="login" resultType="member.MemberVO">
+		select * from member
+		where id = #{id}
+		and pw = #{pw}	
+	</select>		 
+</mapper>
