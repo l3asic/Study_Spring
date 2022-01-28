@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/ex02.xml" value="0.27239583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/ex03.xml" value="0.27239583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/ex04linearlinear.xml" value="0.27239583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/ex2_linear.xml" value="1.0348837209302326" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/test01.xml" value="0.27239583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/Ex02_LinearLayout/app/src/main/res/layout/test02.xml" value="0.3391544117647059" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn1"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_centerInParent="true" />
+
+   <Button
+       android:id="@+id/btn2"
+       android:layout_width="100dp"
+       android:layout_alignBaseline="@id/btn1"
+       android:layout_height="100dp" />
+
+   <Button
+       android:id="@+id/btn3"
+       android:layout_width="100dp"
+       android:layout_below="@id/btn2"
+       android:layout_height="100dp" />
+   <Button
+       android:id="@+id/btn4"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"/>
+   <Button
+       android:id="@+id/btn5"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_centerInParent="true"
+       android:layout_alignParentRight="true"/>
+
+   <Button
+       android:id="@+id/btn6"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_toLeftOf="@id/btn1" />
+</RelativeLayout>

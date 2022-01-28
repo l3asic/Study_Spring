@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="노말"
+        android:backgroundTint="#112345"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="마진탑"
+        android:backgroundTint="#112345"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="마진레프트"
+        android:backgroundTint="#456789"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="패딩!"
+        android:backgroundTint="#456789"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:text="그래비티"
+        android:backgroundTint="#456789"/>
+<!--Button을 하나 추가하시고
+    ※layout_gravity속성을 이용해서 view를
+    어떻게 이동하는지 관찰.
+-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

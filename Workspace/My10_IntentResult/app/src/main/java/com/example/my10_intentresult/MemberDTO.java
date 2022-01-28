@@ -1,0 +1,65 @@
+package com.example.my10_intentresult;
+
+import java.io.Serializable;
+
+public class MemberDTO implements Serializable {
+    private String id , pw , name , addr , nick;
+    private int age ;
+
+    public MemberDTO(String id, String pw, String name, String addr, String nick, int age) {
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.addr = addr;
+        this.nick = nick;
+        this.age = age;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getPw() {
+        return pw;
+    }
+
+    public void setPw(String pw) {
+        this.pw = pw;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
+    }
+
+    public String getNick() {
+        return nick;
+    }
+
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
